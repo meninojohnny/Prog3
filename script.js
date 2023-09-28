@@ -80,7 +80,7 @@ var items = [
     {
       "nome": "Coca-Cola",
       "preco": "R$ 8.00",
-      "url": "images/bebidas/coca.png"
+      "url": "images/bebidas/coca-cola.png"
     },
     {
       "nome": "Fanta",
