@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 1.1em;
+}
+
+body {
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100vw;
+  height: 30vw;
+  background-color: cadetblue;
+}
+
+.nav {
+  background-color: cadetblue;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+#cardapio {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.categoria {
+  display: flex;
+  justify-content: space-around;
+  font-size: .8em;
+  margin-bottom: 20px;
+}
+
+#prato, #bebida, #sobremesa {
+  cursor: pointer;
+}
+
+#pratos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#item {
+  width: 200px;
+  height: 250px;
+  background-color: blue;
+  padding: 20px;
+  font-size: .8em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.foto {
+  width: 160px;
+  height: 160px;
+  background-color: coral;
+  margin-bottom: 10px;
+}
+
+#nome {
+  margin-bottom: 5px;
+}
