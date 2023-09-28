@@ -23,42 +23,42 @@ var items = [
     {
       "nome": "Hamburguer",
       "preco": "R$ 7.00",
-      "url": ""
+      "url": "images/pratos/hamburguer.png"
     },
     {
       "nome": "Churros",
       "preco": "R$ 12.00",
-      "url": ""
+      "url": "images/pratos/churros.png"
     },
     {
       "nome": "Coxinha",
       "preco": "R$ 5.00",
-      "url": ""
+      "url": "images/pratos/coxinha.png"
     },
     {
       "nome": "Barca de sushi",
       "preco": "R$ 20.00",
-      "url": ""
+      "url": "images/pratos/sushi.png"
     },
     {
       "nome": "Strogonoff",
       "preco": "R$ 10.00",
-      "url": ""
+      "url": "images/pratos/strogonoff.png"
     },
     {
       "nome": "Batata Frita",
       "preco": "R$ 10.00",
-      "url": ""
+      "url": "images/pratos/batata-frita.png"
     },
     {
       "nome": "Arrumadinho",
       "preco": "R$ 13.00",
-      "url": ""
+      "url": "images/pratos/arrumadinho.png"
     },
     {
       "nome": "Creme de galinha",
       "preco": "R$ 8.00",
-      "url": ""
+      "url": "images/pratos/creme-de-galinha.png"
     }
   ],
   [
