@@ -65,124 +65,124 @@ var items = [
     {
       "nome": "Água",
       "preco": "R$ 5.00",
-      "url": ""
+      "url": "images/bebidas/agua.png"
     },
     {
       "nome": "Água com gás",
       "preco": "R$ 10.00",
-      "url": ""
+      "url": "images/bebidas/agua-com-gas.png"
     },
     {
       "nome": "Suco",
       "preco": "R$ 10.00",
-      "url": ""
+      "url": "images/bebidas/suco.png"
     },
     {
       "nome": "Coca-Cola",
       "preco": "R$ 8.00",
-      "url": ""
+      "url": "images/bebidas/coca.png"
     },
     {
       "nome": "Fanta",
       "preco": "R$ 5.00",
-      "url": ""
+      "url": "images/bebidas/fanta.png"
     },
     {
       "nome": "Pepsi",
       "preco": "R$ 7.00",
-      "url": ""
+      "url": "images/bebidas/pepsi.png"
     },
     {
       "nome": "Guarná Jesus",
       "preco": "R$ 5.00",
-      "url": ""
+      "url": "images/bebidas/guarana-jesus.png"
     },
     {
       "nome": "Antarctica",
       "preco": "R$ 8.00",
-      "url": ""
+      "url": "images/bebidas/antartica.png"
     },
     {
       "nome": "Heineken",
       "preco": "R$ 10.00",
-      "url": ""
+      "url": "images/bebidas/heineken.png"
     },
     {
       "nome": "Brahma",
       "preco": "R$ 10.00",
-      "url": ""
+      "url": "images/bebidas/brahma.png"
     },
     {
       "nome": "Skol",
       "preco": "R$ 8.00",
-      "url": ""
+      "url": "images/bebidas/skol.png"
     },
     {
       "nome": "Amstel",
       "preco": "R$ 8.00",
-      "url": ""
+      "url": "images/bebidas/amstel.png"
     },
   ],
   [
     {
       "nome": "Torta de Limão",
       "preco": "R$ 5.00",
-      "url": ""
+      "url": "images/sobremesas/torta-de-limao.png"
     },
     {
       "nome": "Torta de laranja",
       "preco": "R$ 8.00",
-      "url": ""
+      "url": "images/sobremesas/torta-de-laranja.png"
     },
     {
       "nome": "Brigadeiro",
       "preco": "R$ 8.00",
-      "url": ""
+      "url": "images/sobremesas/brigadeiro.png"
     },
     {
       "nome": "Beijinho",
       "preco": "R$ 8.00",
-      "url": ""
+      "url": "images/sobremesas/beijinho.png"
     },
     {
       "nome": "Tapioca doce",
       "preco": "R$ 8.00",
-      "url": ""
+      "url": "images/sobremesas/tapioca-doce.png"
     },
     {
       "nome": "Churros",
       "preco": "R$ 8.00",
-      "url": ""
+      "url": "images/sobremesas/churros.png"
     },
     {
       "nome": "Goiabada",
       "preco": "R$ 8.00",
-      "url": ""
+      "url": "images/sobremesas/goiabada.png"
     },
     {
       "nome": "Sorvete",
       "preco": "R$ 8.00",
-      "url": ""
+      "url": "images/sobremesas/sorvete.png"
     },
     {
       "nome": "Pudim",
       "preco": "R$ 8.00",
-      "url": ""
+      "url": "images/sobremesas/pudim.png"
     },
     {
       "nome": "Bolo de cenoura",
       "preco": "R$ 8.00",
-      "url": ""
+      "url": "images/sobremesas/bolo-de-cenoura.png"
     },
     {
       "nome": "Bolo de milho",
       "preco": "R$ 8.00",
-      "url": ""
+      "url": "images/sobremesas/bolo-de-milho.png"
     },
     {
       "nome": "Quindim",
       "preco": "R$ 8.00",
-      "url": ""
+      "url": "images/sobremesas/quindim.png"
     },
 
   ]
