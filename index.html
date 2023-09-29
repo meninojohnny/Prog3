@@ -8,28 +8,44 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
+    <div id="home">
+      <header>
+        <img
+          class="logo"
+          src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgY2Xx1ilD17t7lCOlAlqRjzejg_BrnKfFm2-c48sd-1SG_JqxeAcDHDUswH6b_JGbUr3m9vGd87IyRunyD6g78oCywBnGlO3qUbGJB337qP9e2wlWntjhdq4U5gSBbJ-tp6AVxOnt8ObucJtmvcTE5XpVXkhAOZ1LwqxiL99B12npSvG5GY7RbqyDIsRMa/s500/20230928_180513_0000-removebg-preview.png"
+          alt=""
+        />
+      </header>
 
-      <img class="logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgY2Xx1ilD17t7lCOlAlqRjzejg_BrnKfFm2-c48sd-1SG_JqxeAcDHDUswH6b_JGbUr3m9vGd87IyRunyD6g78oCywBnGlO3qUbGJB337qP9e2wlWntjhdq4U5gSBbJ-tp6AVxOnt8ObucJtmvcTE5XpVXkhAOZ1LwqxiL99B12npSvG5GY7RbqyDIsRMa/s500/20230928_180513_0000-removebg-preview.png" alt="">
-    </header>
-
-    <div class="nav">
-      <nav>
-        <a href="#">Carápio</a>
-        <a href="#">Contato</a>
-        <a href="#">Sobre</a>
-      </nav>
-    </div>
-
-    <section id="cardapio">
-      <div class="categoria">
-        <span id="prato" onclick="MudarComida(id)">Pratos</span>
-        <span id="bebida" onclick="MudarComida(id)">Bebidas</span>
-        <span id="sobremesa" onclick="MudarComida(id)">Sobremesas</span>
+      <div class="nav">
+        <nav>
+          <a href="#">Carápio</a>
+          <a href="#">Contato</a>
+          <a href="#">Sobre</a>
+        </nav>
       </div>
 
-      <div id="pratos"></div>
-    </section>
+      <section id="cardapio">
+        <div class="categoria">
+          <span id="prato" onclick="MudarComida(id)">Pratos</span>
+          <span id="bebida" onclick="MudarComida(id)">Bebidas</span>
+          <span id="sobremesa" onclick="MudarComida(id)">Sobremesas</span>
+        </div>
+
+        <div id="pratos"></div>
+      </section>
+    </div>
+
+    <div id="itemDetalhe">
+      <div id="imagemItem"></div>
+      <div class="itemDetalheSection">
+        <h1 id="nomeItem"></h1>
+        <h1 id="promocao">Promoção</h1>
+        <h2 id="precoItem"></h2>
+        <p>Lorem ipsum dolor sit amet. Aut recusandae veritatis vel voluptas earum non molestias modi a quod alias! Qui laboriosam ipsa et iusto nisi aut quas sint a omnis perspiciatis aut maxime voluptatem ut placeat dicta qui repellat rerum. Vel consequatur nulla At officiis quidem et molestias eveniet ut excepturi eligendi sed saepe voluptatem et internos galisum.</p>
+      </div>
+
+    </div>
 
     <script src="script.js"></script>
   </body>

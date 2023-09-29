@@ -188,8 +188,8 @@ var items = [
   ]
 ]
 
-function CriarTag(name, preco, url) {
-  pratos.innerHTML += "<div id='item'><img class='foto' src='"+url+"'></img><h3 id='nome'>"+name+"</h3><h3 id='preco'>"+preco+"</h3></div>"
+function CriarTag(name, preco, url, id) {
+  pratos.innerHTML += "<div id='"+id+"' class='item' onClick='SetItem(id)'><img class='foto' src='"+url+"'></img><h3 id='nome'>"+name+"</h3><h3 id='preco'>"+preco+"</h3></div>"
 }
 
 var controller = 0
@@ -200,6 +200,7 @@ function GerarCardapio() {
       items[controller][i].nome,
       items[controller][i].preco,
       items[controller][i].url,
+      i
     )
   }
 }
@@ -221,4 +222,19 @@ function MudarComida(id) {
   GerarCardapio() 
 }
 
-GerarCardapio() 
+var item = 0
+
+function SetItem(id) {
+  item = items[controller][id]
+  home.style.display = "none"
+  itemDetalhe.style.display = "block"
+  GerarItemDetalhe()
+}
+
+GerarCardapio()
+
+function GerarItemDetalhe() {
+  nomeItem.innerHTML = item.nome
+  precoItem.innerHTML = item.preco
+  imagemItem.style.background = "url("+item.url+")"
+}

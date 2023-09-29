@@ -30,7 +30,7 @@ header {
 .logo {
   width: 100px;
   padding: 10px;
-  background-color: white;
+  background-color: rgb(240, 235, 216);
   border-radius: 50%;
 }
 
@@ -54,8 +54,8 @@ nav {
 }
 
 #cardapio {
-  padding: 10px;
   width: 100%;
+  padding: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -83,14 +83,11 @@ nav {
   flex-wrap: wrap;
 }
 
-#item {
+.item {
   width: 150px;
   background-color: rgb(29, 45, 68);
   padding: 20px;
   font-size: 0.7em;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   margin-bottom: 20px;
   color: white;
   border-radius: 10px;
@@ -101,11 +98,37 @@ nav {
 .foto {
   width: 110px;
   height: 110px;
-  background-color: coral;
   margin-bottom: 10px;
   border-radius: 5px;
 }
 
 #nome {
   margin-bottom: 5px;
+}
+
+#itemDetalhe {
+  display: none;
+}
+
+#imagemItem {
+  height: 300px;
+  background-color: cadetblue;
+  background-size: cover;
+}
+
+#imagemItem, #nomeItem, #promocao, #precoItem {
+  margin-bottom: 10px;
+}
+
+#promocao {
+  background-color: green;
+  display: inline-block;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: .5em;
+  color: white
+}
+
+.itemDetalheSection {
+  padding: 10px;
 }
