@@ -1,27 +1,51 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-size: 1.1em;
+  font-family: 'Quicksand', sans-serif;
 }
 
 body {
   height: 100vh;
   box-sizing: border-box;
+  background-color: rgb(240, 235, 216);
 }
 
 header {
   width: 100vw;
   height: 30vw;
-  background-color: cadetblue;
+  background-color: rgb(13, 19, 33);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.logo {
+  width: 100px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 50%;
 }
 
 .nav {
-  background-color: cadetblue;
+  background-color: rgb(13, 19, 33);
   border: 1px solid black;
   padding: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  background-color: rgb(62, 92, 118);
+  border-radius: 30px;
 }
 
 nav {
@@ -39,12 +63,18 @@ nav {
 .categoria {
   display: flex;
   justify-content: space-around;
-  font-size: .8em;
+  font-size: 0.8em;
   margin-bottom: 20px;
 }
 
-#prato, #bebida, #sobremesa {
+#prato,
+#bebida,
+#sobremesa {
   cursor: pointer;
+  padding: 10px;
+  background-color: rgb(163, 180, 162);
+  border-radius: 20px;
+  box-shadow: .1px .1px 3px black;
 }
 
 #pratos {
@@ -54,22 +84,26 @@ nav {
 }
 
 #item {
-  width: 200px;
-  height: 250px;
-  background-color: blue;
+  width: 150px;
+  background-color: rgb(29, 45, 68);
   padding: 20px;
-  font-size: .7em;
+  font-size: 0.7em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 20px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: .1px .1px 3px black;
+  
 }
 
 .foto {
-  width: 160px;
-  height: 160px;
+  width: 110px;
+  height: 110px;
   background-color: coral;
   margin-bottom: 10px;
+  border-radius: 5px;
 }
 
 #nome {
