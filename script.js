@@ -222,14 +222,15 @@ function MudarComida(id) {
   GerarCardapio() 
 }
 
-var item = 0
+var item
 
 function SetItem(id) {
-  item = items[controller][id]
-  home.style.display = "none"
-  itemDetalhe.style.display = "block"
-  GerarItemDetalhe()
+  item = items[controller][id];
+  localStorage.setItem('item', JSON.stringify(item));
+  window.location.href = 'page2.html'
+  console.log(item);
 }
+
 
 GerarCardapio()
 

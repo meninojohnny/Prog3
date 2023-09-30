@@ -18,25 +18,25 @@ body {
 }
 
 header {
-  width: 100vw;
-  height: 30vw;
+  height: 20vw;
+  padding: 20px;
   background-color: rgb(13, 19, 33);
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
 
 .logo {
-  width: 100px;
+  width: 15%;
   padding: 10px;
   background-color: rgb(240, 235, 216);
   border-radius: 50%;
 }
 
 .nav {
+  width: 100%;
   background-color: rgb(13, 19, 33);
-  border: 1px solid black;
   padding: 10px;
 }
 
@@ -44,8 +44,12 @@ header {
   text-decoration: none;
   color: white;
   padding: 10px;
-  background-color: rgb(62, 92, 118);
+  /* background-color: rgb(62, 92, 118); */
   border-radius: 30px;
+}
+
+.nav a:hover {
+  transform: translate(-1px, -1px);
 }
 
 nav {
@@ -72,14 +76,20 @@ nav {
 #sobremesa {
   cursor: pointer;
   padding: 10px;
-  background-color: rgb(163, 180, 162);
-  border-radius: 20px;
+  background-color: rgb(13, 19, 33);
+  color: white;
   box-shadow: .1px .1px 3px black;
+  width: 33%;
+  text-align: center;
+}
+
+#prato:hover, #bebida:hover, #sobremesa:hover {
+  transform: translate(-1px, -1px);
 }
 
 #pratos {
   display: flex;
-  justify-content: space-around;
+  justify-content: start;
   flex-wrap: wrap;
 }
 
@@ -88,11 +98,15 @@ nav {
   background-color: rgb(29, 45, 68);
   padding: 20px;
   font-size: 0.7em;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
   color: white;
   border-radius: 10px;
   box-shadow: .1px .1px 3px black;
-  
+}
+
+.item:hover {
+  transform: translate(-1px, -1px);
 }
 
 .foto {
@@ -100,20 +114,14 @@ nav {
   height: 110px;
   margin-bottom: 10px;
   border-radius: 5px;
-}
-
-#nome {
-  margin-bottom: 5px;
-}
-
-#itemDetalhe {
-  display: none;
+  background-color: white;
 }
 
 #imagemItem {
   height: 300px;
   background-color: cadetblue;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #imagemItem, #nomeItem, #promocao, #precoItem {
